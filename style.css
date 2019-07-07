@@ -1,0 +1,45 @@
+*{
+    background-color: transparent;
+    box-sizing: border-box;
+    border:none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f3d1;
+}
+header {
+    padding: 10 auto;
+    background-color: #e6e6cf;
+}
+section{
+    background-color: #d6d6bd;
+}
+.tituloEstilao{
+    font-family: 'Stylish', sans-serif;
+    margin-left: 25%;
+}
+#formNotas{
+    display: flex;
+    justify-content: center;   
+}
+#formNotas #valorTexto{
+    width: 50em;
+    padding: 20px;
+    border: 1px solid rgb(165, 164, 164);
+}
+#formSubmit{
+    width: 3em;
+    height: 3em;
+    font-size: 22px;
+    background-color: teal;
+    border: 1px solid rgb(165, 164, 164);
+}
+#lista-resposta{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#resposta li:hover{
+    background-color: ghostwhite;
+}
